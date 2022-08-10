@@ -1,0 +1,137 @@
+body {
+    text-align: center;
+    display: flex;
+    margin: 0px auto;
+    font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #151b1e;
+    width: 100%;
+}
+
+.clearfix {
+    clear: both;
+    float: none;
+}
+.unicos {
+    float: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.izqlogo {
+    float: left;
+    margin-top: 1em;
+    margin-right: 5em;
+    width: 35%;
+}
+.derfact {
+    width: 20%;
+    /*margin: 19px;*/
+    float: right;
+    border: double 5px;
+    border-color: #68505062;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 0.6em;
+
+}
+.derfactp {
+    font-size: 1.5em;
+    text-align: center;
+    color: red;
+}
+.centernombre {
+    text-align: center;
+    float: left;
+    margin: 0px auto;
+    font-size: 24px;
+    width: 60%;
+}
+.titulo {
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+}
+
+.facturador {
+    font-size: 10px;
+    margin: 0px auto;
+    text-align: center;
+}
+header {
+    border-top: 2px solid #c6cccf;
+    border-bottom: 2px solid #c6cccf;
+}
+
+.unicosh {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.cliente {
+    float: left;
+    margin-top: 0px;
+    width: 40%;
+    text-align: left;
+    font-size: 0.7em;
+}
+.fpago{
+    float: left;
+    margin-top: 0px;
+    width: 30%;
+    text-align: left;
+    font-size: 0.7em;
+}
+
+.qr{
+    float: left;
+    margin-top: 0px;
+    width: 30%;
+    text-align: left;
+    font-size: 0.8em;
+}
+.tth{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 15px;
+}
+.tth thead{
+    padding: 20px;
+    background: #32b5f1;
+    border-bottom: 1px solid #262e50;
+
+}
+.tth thead tr th {
+    text-align: left;
+    border: 1px solid #151b1e;
+}
+.tth tbody tr td {
+    text-align: left;
+    font-size: 0.8em;
+}
+.tth tbody tr #tdizq {
+    text-align: right;
+}
+.fact {
+    border-bottom: 2px solid #151b1e;
+}
+table tfoot tr th p{
+    margin: 0px;
+}
+footer {
+    position: fixed;
+    bottom: -60px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+
+    /** Extra personal styles **/
+    background-color: #03a9f4;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+}
